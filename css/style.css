@@ -1,0 +1,515 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Navbar */
+.small-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2vw;
+  background: rgb(245, 218, 245);
+  padding: 1vw 6vw;
+  border-bottom-left-radius: 2vw;
+  border-bottom-right-radius: 2vw;
+}
+
+.small-nav-social {
+  display: flex;
+  gap: 2vw;
+}
+
+.big-nav {
+  display: flex;
+  margin: 1vw 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cmpy-detail {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+}
+
+.home {
+  background: black;
+  color: white;
+  padding: 1vw;
+  border-radius: 0.5vw;
+}
+
+.rentall {
+  padding: 1vw;
+  border-radius: 0.5vw;
+}
+
+.about-us {
+  padding: 1vw;
+  border-radius: 0.5vw;
+}
+
+.bikes {
+  padding: 1vw;
+  border-radius: 0.5vw;
+}
+
+.features {
+  padding: 1vw;
+  border-radius: 0.5vw;
+}
+
+.cmpy-download {
+  background: red;
+  color: white;
+  padding: 1vw;
+  border-radius: 0.5vw;
+}
+
+.cmpy-download:hover {
+  background: black;
+  color: white;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li:hover {
+  background: black;
+  color: white;
+  border-radius: 0.5vw;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+
+ul li ul li {
+  background: white;
+  display: block;
+}
+
+ul li ul li a {
+  display: block !important;
+}
+
+ul li ul li:hover {
+  background: rgb(245, 218, 245);
+  color: #000;
+}
+/* Navbar */
+
+/* Empty Section */
+.empty-space {
+  padding: 17rem;
+}
+/* Empty Section */
+
+/* Why Section */
+.title-why {
+  text-align: center;
+  font-size: 3.5vw;
+  margin-bottom: 5vw;
+}
+
+.why-pamplate {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo1 {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+}
+
+.logo1-head h1 {
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+}
+
+.logo1-pic {
+  background: red;
+  border-radius: 50%;
+  padding: 2vw;
+  margin-bottom: 2vw;
+}
+
+.logo1-text {
+  text-align: right;
+  padding-bottom: 3rem;
+}
+
+.logo2 {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+}
+
+.logo2-head h1 {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.logo2-pic {
+  background: red;
+  border-radius: 50%;
+  padding: 2vw;
+}
+
+.logo2-text {
+  text-align: right;
+  padding-bottom: 2rem;
+}
+/* Why Section */
+
+/* Aspostrophy Section */
+.apostrophy-pic {
+  width: 5%;
+  margin-left: 40.5rem;
+  padding: 5vw 1rem 10vw 0;
+}
+/* Aspostrophy Section */
+
+/* Bikes Heading */
+.bikes-head {
+  text-align: center;
+}
+
+.bikes-heading {
+  font-size: 2.8vw;
+  margin-bottom: 4vw;
+}
+/* Bikes Heading */
+
+/* Bike Cards */
+.bike-cards {
+}
+
+.four-bikes {
+  display: flex;
+  gap: 6vw;
+  margin-right: 5rem;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.bike-card {
+}
+
+.bike1 {
+  width: 15rem;
+}
+
+.bike-name {
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+
+.booking {
+  display: flex;
+  border-bottom: 0.5px solid grey;
+  padding: 1vw;
+}
+
+.booking-text {
+  padding: 0 4vw 0 0;
+}
+
+.booking-hours {
+  padding: 0 1vw 0 0;
+}
+
+.m-booking {
+  display: flex;
+  padding: 1vw;
+  margin-bottom: 1vw;
+  border-bottom: 0.5px solid grey;
+}
+
+.m-booking-text {
+  padding: 0 1vw 0 0;
+}
+
+.booking-amount {
+}
+
+.booking-percent {
+  padding: 0 2vw 0 0;
+}
+
+.booking-ride {
+}
+
+.book-now {
+  padding: 1vw 1vw;
+  background: red;
+  color: white;
+  border-radius: 1vw;
+  margin-right: 9vw;
+}
+
+.book-now:hover {
+  background: black;
+}
+
+.bike2 {
+  width: 15rem;
+}
+
+/* View All Section */
+.view-all {
+  text-align: center;
+  padding: 4vw 0;
+  color: #000;
+}
+
+.view-all:hover {
+  color: red;
+}
+/* View All Section */
+
+.rental {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(245, 218, 245);
+  padding: 3vw;
+  border-radius: 2vw;
+  margin: 2vw 2vw;
+}
+
+.rental-head {
+  font-size: 1.5vw;
+}
+
+.rental-guide {
+  color: red;
+  padding: 1vw 0 0 0;
+}
+
+.rental-box {
+  display: flex;
+  gap: 1vw;
+}
+
+.rental-img {
+  width: 2vw;
+}
+/* Bike Cards */
+
+/* Reserve Section */
+.reserve {
+  background: rgb(100, 138, 139);
+  border-radius: 2vw;
+  margin: 0 2vw;
+}
+
+.reserve-box {
+  display: flex;
+  gap: 4vw;
+  justify-content: center;
+  align-items: center;
+  background: rgb(100, 138, 139);
+  border-bottom: 1px solid rgb(196, 196, 233);
+  margin: 2vw 2vw;
+  text-align: center;
+}
+
+.reserve-10 {
+  color: red;
+  font-size: 4vw;
+}
+
+.reserve-book-now {
+  padding: 1vw 1vw;
+  background: red;
+  color: white;
+  border-radius: 1vw;
+  margin-right: 9vw;
+}
+
+.reserve-placeholder {
+  width: 5vw;
+  padding-right: 1vw;
+}
+/* Reserve Section */
+
+/* Advertise Pamplate Section */
+.adv-pamplate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(198, 211, 198);
+  border-radius: 2vw;
+  margin: 2vw 2vw;
+}
+
+.bike-cards {
+  margin-left: 8vw;
+}
+
+.bikes {
+  width: 100%;
+  display: flex;
+}
+
+.bikes-card1 {
+  margin-bottom: 3vw;
+}
+
+.bikes-card2 {
+  margin-top: 4vw;
+}
+
+.bikes-card3 {
+  margin-bottom: 3vw;
+}
+
+.bikes-card4 {
+  margin-top: 3vw;
+}
+
+.bike1-1 {
+  width: 10vw;
+  margin-top: 0.5vw;
+}
+
+.bike1-2 {
+  width: 10vw;
+}
+
+.bike1-3 {
+  width: 10vw;
+  margin-top: 0.1vw;
+}
+
+.bike1-4 {
+  width: 10vw;
+}
+/* Advertise Pamplate Section */
+
+/* Big Cards */
+.big-cards {
+  display: flex;
+  background: rgb(216, 213, 213);
+  border-radius: 2vw;
+  margin: 2vw 2vw;
+}
+
+.girl-bike {
+  width: 40vw;
+}
+
+.food-table {
+  width: 40vw;
+}
+/* Big Cards */
+
+/* Video */
+video {
+  width: 95vw;
+  border-radius: 2vw;
+  margin: 2vw;
+}
+/* Video */
+
+/* Powered Section */
+.powered {
+  text-align: center;
+}
+/* Powered Section */
+.rider-logo-img {
+  margin-left: 42vw;
+}
+/* Company Logo Section */
+/* Company Logo Section */
+
+/* Footer */
+.footer {
+  background: black;
+  color: white;
+  margin: 2vw;
+  border-radius: 1vw;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw;
+}
+
+.footer-hours {
+  text-align: left;
+}
+
+.footer-call {
+  text-align: right;
+}
+
+.footer-big-box {
+  display: flex;
+  padding: 2vw 4vw 2vw 2vw;
+  align-content: space-around;
+  justify-content: space-between;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.rental-riders {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.support {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+/* Footer */

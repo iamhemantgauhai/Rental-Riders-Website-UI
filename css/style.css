@@ -472,6 +472,18 @@ video {
   border-radius: 1vw;
 }
 
+.top {
+  color: white;
+  text-align: center;
+}
+
+.top-text {
+  color: green;
+  border-radius: 50%;
+  background-color: black;
+  text-decoration: none;
+}
+
 .footer-box {
   display: flex;
   justify-content: space-between;
